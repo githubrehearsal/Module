@@ -1,0 +1,64 @@
+@import 'reset';
+@import 'owl-carousel';
+@import 'layout';
+@import 'color';
+@import 'fonts';
+@import 'screen';
+@import 'animation-plugin';
+@import 'owl-custom';
+
+*{
+    color:rgb(50, 50, 50);
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+body{
+    background-color: $white;
+    overflow: hidden;
+}
+
+article{    
+    height: 863px;
+    width:1000px;
+    @include absolute(0, 0, 0, 0, auto);
+}
+
+img{
+    box-shadow: 5px 5px 20px rgba(200, 200, 200, 0.25);
+}
+
+div{
+    @include flex-row;
+    align-items: center;
+}
+
+h3{
+    @include p-y(25px, 12.5px);
+    @include en-title-m(32px);
+    color: $deep-gray;
+}
+
+span{
+    @include p-x(20px, 20px);
+    @include p-y(5px, 5px);
+    @include m-x(auto, 5px);
+    @include m-y(25px, 12.5px);
+    background-color: $deep-gray;
+    color: $white;
+    display: block;
+    box-shadow: 5px 5px 0px $blue-green;
+}
+
+p{
+    @include p-y(12.5px, none);
+    @include en-text-m(16px);
+    color:$gray;
+}
+
+i{
+    @include p-y(12.5px, none);
+    @include en-others-text(14px);
+    text-align: left;
+    display:block;
+    color: $light-gray;
+}
