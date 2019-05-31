@@ -53,11 +53,6 @@
     margin-bottom:$mb;
 }
 
-//盒模型-----
-@mixin border-box {
-    box-sizing: border-box;
-}
-
 //定位屬性-----
 //相對定位
 @mixin relative($top, $right, $bottom, $left, $margin) {

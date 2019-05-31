@@ -7,30 +7,6 @@
 	font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'Arial', 'Helvetica', 'sans-serif';
 }
 
-
-//粗體字
-@mixin font-bold {
-    font-weight: bold;
-}
-//斜體字
-@mixin font-italic {
-    font-style: italic;
-}
-
-//文字靠左
-@mixin text-left {
-    text-align: left;
-}
-//文字靠右
-@mixin text-right { 
-    text-align: right;
-}
-//文字置中
-@mixin text-center {
-    text-align: center;
-}
-
-
 //中字-大標題
 @mixin ch-title-l($size) {
     font-size: $size;
