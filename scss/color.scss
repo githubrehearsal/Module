@@ -49,14 +49,14 @@ $pink: rgb(250, 120, 250);
 //透明色
 $opacity-color: rgba(245, 245, 245, 0);
 
-//淡出效果
+//淡入效果
 @mixin fade-in($opacity){
-    visibility: hidden;
+    visibility: visible;
     opacity: $opacity;
 }
-//淡入效果
+//淡出效果
 @mixin fade-out($opacity) {
-    visibility: visible;
+    visibility: hidden;
     opacity: $opacity;
 }
 
