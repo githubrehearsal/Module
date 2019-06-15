@@ -49,12 +49,12 @@ $pink: rgb(250, 120, 250);
 //淡入效果
 @mixin fade-in{
     visibility: visible;
-    opacity: $opacity;
+    opacity: 1;
 }
 //淡出效果
 @mixin fade-out {
     visibility: hidden;
-    opacity: $opacity;
+    opacity: 0;
 }
 
 //立體效果
