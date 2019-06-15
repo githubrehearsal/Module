@@ -47,12 +47,12 @@ $peach:  rgb(220, 60, 200);
 $pink: rgb(250, 120, 250);
 
 //淡入效果
-@mixin fade-in($opacity){
+@mixin fade-in{
     visibility: visible;
     opacity: $opacity;
 }
 //淡出效果
-@mixin fade-out($opacity) {
+@mixin fade-out {
     visibility: hidden;
     opacity: $opacity;
 }

@@ -5,8 +5,14 @@
 	}
 }
 
-@mixin desktop-w{
+@mixin desktop-m{
 	@media (max-width: 1440px) {
+		@content;
+	}
+}
+
+@mixin desktop-s{
+	@media (max-width: 1280px) {
 		@content;
 	}
 }
