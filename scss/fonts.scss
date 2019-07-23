@@ -10,13 +10,12 @@
 //中字-大標題
 @mixin ch-title-l($size) {
     font-size: $size;
-    font-weight: bold;
     letter-spacing: $size*0.25;
+    white-space: nowrap;
 }
 //中字-小標題
 @mixin ch-title-m($size) {
     font-size: $size;
-    font-weight: bold;
     line-height: $size*1.4;
     letter-spacing: $size*0.05;
 }
@@ -25,14 +24,12 @@
 //英字-大標題
 @mixin en-title-l($size) {
     font-size: $size;
-    font-weight: bold;
-    line-height: $size*1.4;
     letter-spacing: $size*0.1;
+    white-space: nowrap;
 }
 //英字-小標題
 @mixin en-title-m($size) {
     font-size: $size;
-    font-weight: bold;
     line-height: $size*1.2;
     letter-spacing: $size*0.05;   
 }

@@ -56,9 +56,3 @@
 		@content;
 	}
 }
-
-@mixin all-device{
-	@media (min-width: 0px){
-		@content;
-	}
-}
