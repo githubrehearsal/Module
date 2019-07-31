@@ -6,3 +6,11 @@
 @import 'screen';
 @import 'animation-plugin';
 @import 'owl-custom';
+
+*{
+    color: $black;
+}
+
+body{
+    background-color: $white;
+}
