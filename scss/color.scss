@@ -46,6 +46,11 @@ $peach:  rgb(220, 60, 200);
 //粉紅色
 $pink: rgb(250, 120, 250);
 
+//透明色
+@mixin color-a($color, $opacity){
+    background-color: rgba($color, $opacity);
+}
+
 //淡入效果
 @mixin fade-in{
     visibility: visible;

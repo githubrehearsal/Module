@@ -7,3 +7,6 @@
 @import 'animation-plugin';
 @import 'owl-custom';
 
+body{
+    @include color-a($blue, 0.75);
+}
